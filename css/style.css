@@ -1,7 +1,7 @@
 .sist1 {
     border-radius: 10px 0 10px 0;
     padding: 5%;
-    background-color: rgb(103, 153, 197);
+    background-color: rgb(53, 70, 85);
 
 }
 .sist2 {
@@ -14,4 +14,7 @@
 .txtPedaco {
     text-decoration: rgb(128, 40, 40);
     font-weight: bold;
+}
+.link{
+    text-decoration: red;
 }
