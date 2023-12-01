@@ -24,11 +24,12 @@
         <span href="#"><br><br><br><br><br></span>
         <h1><code><</code>DESENVOLVEDOR BACK-END<code>/></code></h1>
         <h2>objetivo</h2>
-        <P>Pretendo assumir vagas de estágio ou desenvolvedor júnior com foco no desenvolvimento de novas tecnologias e
-            manutenção de sistemas. Até o momento não trabalhei em empresas de desenvolvimento, mas possuo alguns
-            conhecimentos com programação na qual adquiri por meio de projetos pessoais, lecionando aulas, criando
-            sistema para TCC e montando sistemas para a empresa Capital Cursos no objetivo de facilitar o meu trabalho
-            no periodo que trabalhei la. Segue abaixo algumas de minhas conquistas.</p>
+        <P>Busco oportunidades de estágio ou posição como desenvolvedor júnior, direcionando meu interesse para o avanço em novas tecnologias e aprimoramento de sistemas. Embora minha trajetória profissional ainda não tenha incluído experiências em empresas de desenvolvimento, venho cultivando sólidos conhecimentos em programação por meio de iniciativas pessoais e projetos diversificados.</p>
+        <p>
+
+Minha jornada inclui a condução de projetos independentes, a ministração de aulas, o desenvolvimento de sistemas para meu Trabalho de Conclusão de Curso (TCC) e a criação de soluções para a empresa Capital Cursos, otimizando processos durante o período em que estive lá. Estas experiências, somadas, contribuíram significativamente para a minha formação e habilidades técnicas.
+
+A seguir, compartilho algumas das minhas realizações:</p>
         <!--SISTEMAS DESENVOLVIDOS-->
         <?php include 'sistdev.php';?>
 
@@ -104,20 +105,11 @@
             <img src="img/cp-logo.png" width="100vw">
             <p>Cpanel</p>
         </div>
-    
-       
-       
-        
+            
         </div>       
     </div>
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <span id="form"><br><br><br><br><br></span>
     <h2>Formação</h2>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
