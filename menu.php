@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="container-fluid col-8">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Antonystar" width="30" height="30"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,26 +8,25 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#sistd">sistemas desenvolvidos</a>
+                        <a class="nav-link" href="#sistd">PROJETOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tec">tecnologias</a>
+                        <a class="nav-link" href="#tec">TECNOLOGIAS</a>
+                    </li>
+                    
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ms">SISTEMAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#form">formação</a>
+                        <a class="nav-link" href="#form">SOBRE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#exp">experiencia profissional</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ms">Mini sistemas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cont">contatos</a>
+                        <a class="nav-link" href="#cont">CONTATOS</a>
                     </li>
 
                 </ul>
