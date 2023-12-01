@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-<script type="text/javascript" src="js/func.js"></script>
+
 
 
 <head>
@@ -12,17 +11,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<script type="text/javascript" src="js/func.js"></script>
 
 </head>
 
-<body style="font-family: sans-serif;">
+<body id="bodyClass" style="font-family: sans-serif;">
     <!--MENU-->
     <?php include 'menu.php';?>
     <!--fim MENU-->
 
     <div class="container-fluid">
         <span href="#"><br><br><br><br><br></span>
-        <h1><code><</code>DESENVOLVEDOR BACK-END<code>/></code></h1>
+        <h1><code><</code>ANTONIO ARAUJO<code>></code></h1>
+        <h1>...</h1>
+        <h1><code><&frasl;</code>DESENVOLVEDOR BACK-END<code>></code></h1>
         <h2>objetivo</h2>
         <P>Busco oportunidades de estágio ou posição como desenvolvedor júnior, direcionando meu interesse para o avanço em novas tecnologias e aprimoramento de sistemas. Embora minha trajetória profissional ainda não tenha incluído experiências em empresas de desenvolvimento, venho cultivando sólidos conhecimentos em programação por meio de iniciativas pessoais e projetos diversificados.</p>
         <p>
@@ -37,7 +40,7 @@ A seguir, compartilho algumas das minhas realizações:</p>
     <!--fim SISTEMAS DESENVOLVIDOS-->
 
     <span id="tec"><br><br><br><br><br></span>
-    <h2>teconologias que domino</h2>
+    <h2>Teconologias que domino</h2>
 <br>
     <div class="col-12">
         <div class="row">
