@@ -56,6 +56,17 @@
      
       font-weight: bold;
     }
+    .alerta{
+        background-color:green;
+        text-align: center;
+
+    }
+    .alertaBanco{
+        background-color:red;
+        color:white;
+        font-size:14px;
+
+    }
     </style>
 
 </head>

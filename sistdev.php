@@ -71,7 +71,7 @@
                                 target="_blank">CLIQUE AQUI</a></span>
                         <br>
                         <span class="txtPedaco">Atualizações futuras:</span><br><span> Pretendo reestruturar o sistema removendo o carregamento do front-end pelo javascript, e atualizar os links com microserviços em JAVA ou PHP</span>
-
+                        <div class="alerta">EM DESENVOLVIMENTO</div>
 
                     </div>
                 </div>
@@ -223,7 +223,8 @@
 
 
                <!-- fim SISTEMAS-->
-               <div class="col-12">
+               <br><br><br><br>
+               <div class="col-12 alertaBanco">
                 <span>Os bancos de dados dos projetos são resetados para o padrão a cada 5 horas na qual podem realizar testes nos sistemas para verificar suas funcionalidades. Não é permitido o uso dos sistemas para outras atividades que não seja para teste e avaliação dos sistemas. Não cadastrar informações sensiveis, visto que qualquer pessoa pode consultar dentro das 5 horas vigente. O sistema 2Fatores não disponibiliza informações de outros usuarios, portanto o cadastro feito no sistema te disponibilizara somente a conta de usuario comum.</span>
                </div>
              
