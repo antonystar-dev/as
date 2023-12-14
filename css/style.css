@@ -1,5 +1,6 @@
 .div-viewport {
     background-color: cyan;
+    /*background-color:#060029;*/
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -8,6 +9,7 @@
 .central {
     display: flex;
     background-color: coral;
+    /*background-color:#060029;*/
 
     align-items: center;
 
@@ -19,25 +21,34 @@
     /*PC*/
     body {
         background-color: blue;
+        /*background-color:#060029;*/
 
     }
+    
     .home-dados{
         float: left;
-        color: red;
-        width: 500px;
+        color: white;
+        width: 50%;
+        padding-top: 35%;        
+        /*background-color: rgb(193, 193, 207);*/
+        text-align: center;
     }
-    .img-diveu{
+    .div-imgeu{
         float: left;
-        width: 500px;
+        width: 50%;
+        /*background-color: yellow;*/
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
     .imgeu{
-        height: 200px;
+        width:100%;
         border-radius: 200px;
     }
     
 
     .conteudo {
-        background-color: blueviolet;
+        /*background-color: blueviolet;*/
+        background-color:#060029;
         width: 1200px;
 
     }
@@ -126,6 +137,29 @@
     .conteudo {
         background-color: black;
         width: 800px;
+    }
+    .home-dados{
+        /*float: left;*/
+        color: white;
+        /*width: 50%;*/
+        padding-top: 35%;        
+        /*background-color: rgb(193, 193, 207);*/
+        text-align: center;
+    }
+    .div-imgeu{
+        background-color: yellow;
+        padding-left: 25%;
+        /*float: left;
+        width: 50%;*/
+        /*
+        padding-top: 15%;
+        padding-bottom: 15%;*/
+    }
+    .imgeu{
+        width:50%;
+        border-radius: 200px;
+       
+        
     }
 
     .col1 {
