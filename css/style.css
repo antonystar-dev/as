@@ -1,0 +1,267 @@
+.div-viewport {
+    background-color: cyan;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.central {
+    display: flex;
+    background-color: coral;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 769px) {
+    /*PC*/
+    body {
+        background-color: blue;
+
+    }
+    .home-dados{
+        float: left;
+        color: red;
+        width: 500px;
+    }
+    .img-diveu{
+        float: left;
+        width: 500px;
+    }
+    .imgeu{
+        height: 200px;
+        border-radius: 200px;
+    }
+    
+
+    .conteudo {
+        background-color: blueviolet;
+        width: 1200px;
+
+    }
+
+    .col1 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+
+    }
+
+    .col2 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col3 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col4 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+    .col5 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+    }
+
+    .col6 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col7 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col8 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+    .col9 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+    }
+
+    .col10 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col11 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col12 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*TABLET*/
+    body {
+        background-color: green;
+    }
+
+    .conteudo {
+        background-color: black;
+        width: 800px;
+    }
+
+    .col1 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+
+    }
+
+    .col2 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col3 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col4 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+    .col5 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+    }
+
+    .col6 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col7 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col8 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+    .col9 {
+        display: none;
+    }
+
+    .col10 {
+        display: none;
+    }
+
+    .col11 {
+        display: none;
+    }
+
+    .col12 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    /*SMARTPHONE*/
+    body {
+        background-color: yellow;
+    }
+
+    .conteudo {
+        background-color: black;
+        width: 800px;
+    }
+
+    .col1 {
+        background-color: chartreuse;
+        float: left;
+        width: 100px;
+
+    }
+
+    .col2 {
+        background-color: red;
+        float: left;
+        width: 100px;
+    }
+
+    .col3 {
+        background-color: chocolate;
+        float: left;
+        width: 100px;
+    }
+
+    .col4 {
+        background-color: purple;
+        float: left;
+        width: 100px;
+    }
+
+    .col5 {
+        display: none;
+    }
+
+    .col6 {
+        display: none;
+    }
+
+    .col7 {
+        display: none;
+    }
+
+    .col8 {
+        display: none;
+    }
+
+    .col9 {
+        display: none;
+    }
+
+    .col10 {
+        display: none;
+    }
+
+    .col11 {
+        display: none;
+    }
+
+    .col12 {
+        display: none;
+    }
+
+
+}
