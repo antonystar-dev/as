@@ -1,0 +1,53 @@
+.sist1 {
+    border-radius: 10px 0 10px 0;
+    padding: 5%;
+    background-color: rgb(53, 70, 85);
+
+}
+
+.sist2 {
+    border-radius: 10px 0 10px 0;
+    padding: 5%;
+    background-color: rgb(157, 233, 157)
+}
+
+.txtPedaco {
+    text-decoration: rgb(128, 40, 40);
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+
+body {
+
+    font-family: sans-serif;
+}
+.modelo1 {
+background-color: #ec6363;
+
+color: white;
+font-size: large;
+
+font-weight: bold;
+}
+.alerta{
+background-color:green;
+text-align: center;
+
+}
+.alertaBanco{
+background-color:red;
+color:white;
+font-size:14px;
+
+}
