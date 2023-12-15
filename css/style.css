@@ -1,6 +1,4 @@
 .div-viewport {
-    background-color: cyan;
-    /*background-color:#060029;*/
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -9,49 +7,118 @@
 .central {
     display: flex;
     background-color: coral;
+    /*COLOCAR A COR NO BODY*/
     /*background-color:#060029;*/
-
     align-items: center;
-
     justify-content: center;
+}
+
+.conteudo {
+    /*background-color: blueviolet;*/
+    background-color: #060029;
+
+
+}
+
+.home-dados {
+
+    color: white;
+    text-align: center;
+}
+
+.titulo-identificador {
+    color: #F6752C;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25pt;
+
+}
+
+.txt1 {
+    color: white;
+}
+
+.link-semFormatacao {
+    text-decoration: none;
+    color: white;
 }
 
 
 @media screen and (min-width: 769px) {
+
     /*PC*/
     body {
         background-color: blue;
         /*background-color:#060029;*/
 
     }
-    
-    .home-dados{
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .home-dados {
         float: left;
-        color: white;
-        width: 50%;
-        padding-top: 35%;        
+        padding-top: 50vh;
+        padding-bottom: 40%;
         /*background-color: rgb(193, 193, 207);*/
-        text-align: center;
+
+        grid-column-start: 1;
+        grid-row-start: 1;
     }
-    .div-imgeu{
+
+    .div-imgeu {
         float: left;
-        width: 50%;
         /*background-color: yellow;*/
-        padding-top: 15%;
-        padding-bottom: 15%;
+        padding-top: 20vh;
+        padding-bottom: 30%;
+        padding-left: 20px;
+        grid-column-start: 2;
+        grid-row-start: 1;
     }
-    .imgeu{
-        width:100%;
-        border-radius: 200px;
+
+    .imgeu {
+        width: 100%;
+        border-radius: 300px;
     }
-    
 
     .conteudo {
-        /*background-color: blueviolet;*/
-        background-color:#060029;
         width: 1200px;
-
     }
+
+    .sobre {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-end: 5;
+        font-size: 18pt;
+    }
+
+    .contatos {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 100px;
+    }
+
+    .logo-contatos {
+        height: 50px;
+    }
+
+    .formacao {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        padding-right: 40px;
+        font-size: 18pt;
+    }
+
+
+
+
+
+
+
 
     .col1 {
         background-color: chartreuse;
@@ -129,38 +196,70 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
     /*TABLET*/
     body {
         background-color: green;
     }
 
     .conteudo {
-        background-color: black;
+
         width: 800px;
     }
-    .home-dados{
-        /*float: left;*/
-        color: white;
-        /*width: 50%;*/
-        padding-top: 35%;        
-        /*background-color: rgb(193, 193, 207);*/
+
+    .home-dados {
+        padding-top: 10%;
+        padding-bottom: 10%;
         text-align: center;
     }
-    .div-imgeu{
-        background-color: yellow;
-        padding-left: 25%;
-        /*float: left;
-        width: 50%;*/
-        /*
-        padding-top: 15%;
-        padding-bottom: 15%;*/
+
+    .div-imgeu {
+        padding-left: 30%;
+        padding-top: 10%;
     }
-    .imgeu{
-        width:50%;
+
+    .imgeu {
+        width: 50%;
         border-radius: 200px;
-       
-        
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .sobre {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 6;
+        font-size: 18pt;
+        padding: 0 5% 0 5%;
+    }
+
+    .contatos {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 100px;
+        padding-bottom: 30%;
+        padding-top: 30%;
+    }
+
+    .logo-contatos {
+        height: 50px;
+    }
+
+    .formacao {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        padding: 0 5% 0 5%;
+        font-size: 18pt;
+    }
+
+
+
+
 
     .col1 {
         background-color: chartreuse;
@@ -230,15 +329,74 @@
 }
 
 @media screen and (max-width: 480px) {
+
     /*SMARTPHONE*/
     body {
         background-color: yellow;
     }
 
     .conteudo {
-        background-color: black;
         width: 800px;
     }
+
+    .home-dados {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .div-imgeu {
+        padding-left: 30%;
+        padding-top: 10%;
+    }
+
+    .imgeu {
+        width: 50%;
+        border-radius: 200px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .sobre {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 6;
+        font-size: 16pt;
+        padding: 0 5% 0 5%;
+    }
+
+    .contatos {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 50px;
+        padding-bottom: 30%;
+        padding-top: 30%;
+    }
+
+    .logo-contatos {
+        height: 50px;
+    }
+
+    .formacao {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        padding: 0 5% 0 5%;
+        font-size: 16pt;
+    }
+
+
+
+
+
+
+
+
+
 
     .col1 {
         background-color: chartreuse;
