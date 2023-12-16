@@ -1,20 +1,27 @@
-body {
-
-    background-color: #060029;
+.div-viewport {
     margin: 0px;
     padding: 0px;
     width: 100%;
-
 }
 
 .central {
     display: flex;
     background-color: coral;
+    /*COLOCAR A COR NO BODY*/
+    /*background-color:#060029;*/
     align-items: center;
     justify-content: center;
 }
 
+.conteudo {
+    /*background-color: blueviolet;*/
+    background-color: #060029;
+
+
+}
+
 .home-dados {
+
     color: white;
     text-align: center;
 }
@@ -24,6 +31,7 @@ body {
     text-decoration: underline;
     text-align: center;
     font-size: 25pt;
+
 }
 
 .txt1 {
@@ -39,55 +47,58 @@ body {
 @media screen and (min-width: 769px) {
 
     /*PC*/
-    .div-viewport {
-        background-color:  #060029;
+    body {
+        background-color: blue;
+        /*background-color:#060029;*/
+
+    }
+
+    .grid {
         display: grid;
-        grid-template-columns:repeat(12, 1fr);
-        width: 1200px;
+        grid-template-columns: auto auto;
     }
 
     .home-dados {
-        padding-top: 55%;
-        padding-left: 10px;
-        padding-bottom: 30%;
-        grid-row-start: 2;
+        float: left;
+        padding-top: 50vh;
+        padding-bottom: 40%;
+        /*background-color: rgb(193, 193, 207);*/
+
         grid-column-start: 1;
-        grid-column-end: 7;
-       
+        grid-row-start: 1;
     }
 
     .div-imgeu {
-
-        
-        padding-top: 40%;
+        float: left;
+        /*background-color: yellow;*/
+        padding-top: 20vh;
         padding-bottom: 30%;
-        grid-column-start: 7;
-        grid-row-start: 2;
-        grid-column-end: 13;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding-left: 20px;
+        grid-column-start: 2;
+        grid-row-start: 1;
     }
 
     .imgeu {
-        width: 400px;
+        width: 100%;
         border-radius: 300px;
     }
 
+    .conteudo {
+        width: 1200px;
+    }
+
     .sobre {
-        grid-row-start: 3;
-        grid-column-start: 3;
-        
-        grid-column-end: 11;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-end: 5;
         font-size: 18pt;
     }
 
     .contatos {
-        grid-row-start: 4;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        background-color: red;
-       
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 100px;
     }
 
     .logo-contatos {
@@ -95,10 +106,9 @@ body {
     }
 
     .formacao {
-        grid-row-start: 5;
-        grid-column-start: 6;
-        grid-column-end: 13;
-        
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
         padding-right: 40px;
         font-size: 18pt;
     }
@@ -112,75 +122,75 @@ body {
 
     .col1 {
         background-color: chartreuse;
-        grid-row-start: 1;
-        grid-column-start: 1;
+        float: left;
+        width: 100px;
+
     }
 
     .col2 {
         background-color: red;
-        grid-row-start: 1;
-        grid-column-start: 2;
-
-
+        float: left;
+        width: 100px;
     }
 
     .col3 {
         background-color: chocolate;
-        grid-column-start: 3;
-
+        float: left;
+        width: 100px;
     }
 
     .col4 {
         background-color: purple;
-        grid-column-start: 4;
-
+        float: left;
+        width: 100px;
     }
 
     .col5 {
         background-color: chartreuse;
-        grid-column-start: 5;
-
+        float: left;
+        width: 100px;
     }
 
     .col6 {
         background-color: red;
-        grid-column-start: 6;
-
+        float: left;
+        width: 100px;
     }
 
     .col7 {
         background-color: chocolate;
-        grid-column-start: 7;
-
+        float: left;
+        width: 100px;
     }
 
     .col8 {
         background-color: purple;
-        grid-column-start: 8;
-
+        float: left;
+        width: 100px;
     }
 
     .col9 {
         background-color: chartreuse;
-        grid-column-start: 9;
-
+        float: left;
+        width: 100px;
     }
 
     .col10 {
         background-color: red;
-        grid-column-start: 10;
-
+        float: left;
+        width: 100px;
     }
 
     .col11 {
         background-color: chocolate;
-        grid-column-start: 11;
-
+        float: left;
+        width: 100px;
     }
 
     .col12 {
         background-color: purple;
-        grid-column-start: 12;
+        float: left;
+        width: 100px;
     }
 
 }
@@ -192,54 +202,47 @@ body {
         background-color: green;
     }
 
-    .div-viewport {
-        background-color:  #060029;
-        display: grid;
-        grid-template-columns:repeat(8, 1fr);
+    .conteudo {
+
         width: 800px;
     }
 
     .home-dados {
         padding-top: 10%;
         padding-bottom: 10%;
-       
-        grid-row-start: 3;
-        grid-column-start: 1;
-        grid-column-end: 9;
+        text-align: center;
     }
 
     .div-imgeu {
-
-       
+        padding-left: 30%;
         padding-top: 10%;
-        padding-bottom: 10%;
-        grid-column-start: 1;
-        grid-row-start: 2;
-        grid-column-end: 9;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .imgeu {
-        width: 400px;
-        border-radius: 300px;
+        width: 50%;
+        border-radius: 200px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .sobre {
-        grid-row-start: 4;
-        grid-column-start: 2;
-        grid-column-end: 8;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 6;
         font-size: 18pt;
+        padding: 0 5% 0 5%;
     }
 
     .contatos {
-        grid-row-start: 6;
+        grid-row-start: 3;
         grid-column-start: 1;
-        grid-column-end: 3;
-        padding-left: 10%;
+        grid-column-end: 2;
+        padding-left: 100px;
         padding-bottom: 30%;
-        background-color: red;
+        padding-top: 30%;
     }
 
     .logo-contatos {
@@ -247,86 +250,81 @@ body {
     }
 
     .formacao {
-        grid-row-start: 5;
-        grid-column-start: 2;
-        grid-column-end: 9;
-        
-        padding-right: 40px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        padding: 0 5% 0 5%;
         font-size: 18pt;
     }
 
 
 
+
+
     .col1 {
         background-color: chartreuse;
-        grid-row-start: 1;
-        grid-column-start: 1;
+        float: left;
+        width: 100px;
+
     }
 
     .col2 {
         background-color: red;
-        grid-row-start: 1;
-        grid-column-start: 2;
-
-
+        float: left;
+        width: 100px;
     }
 
     .col3 {
         background-color: chocolate;
-        grid-column-start: 3;
-
+        float: left;
+        width: 100px;
     }
 
     .col4 {
         background-color: purple;
-        grid-column-start: 4;
-
+        float: left;
+        width: 100px;
     }
 
     .col5 {
         background-color: chartreuse;
-        grid-column-start: 5;
-
+        float: left;
+        width: 100px;
     }
 
     .col6 {
         background-color: red;
-        grid-column-start: 6;
-
+        float: left;
+        width: 100px;
     }
 
     .col7 {
         background-color: chocolate;
-        grid-column-start: 7;
-
+        float: left;
+        width: 100px;
     }
 
     .col8 {
         background-color: purple;
-        grid-column-start: 8;
-
+        float: left;
+        width: 100px;
     }
 
     .col9 {
         display: none;
-
     }
 
     .col10 {
         display: none;
-
     }
 
     .col11 {
         display: none;
-
     }
 
     .col12 {
         display: none;
     }
-
-
 
 }
 
@@ -337,75 +335,58 @@ body {
         background-color: yellow;
     }
 
-    .div-viewport {
-        background-color:  #060029;
-        display: grid;
-        grid-template-columns:repeat(4, 1fr);
+    .conteudo {
         width: 800px;
     }
 
     .home-dados {
         padding-top: 10%;
         padding-bottom: 10%;
-       
-        grid-row-start: 3;
-        grid-column-start: 1;
-        grid-column-end: 5;
+        text-align: center;
     }
 
     .div-imgeu {
-
-       
+        padding-left: 30%;
         padding-top: 10%;
-        padding-bottom: 10%;
-        grid-column-start: 1;
-        grid-row-start: 2;
-        grid-column-end: 5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .imgeu {
-        width: 300px;
-        border-radius: 300px;
+        width: 50%;
+        border-radius: 200px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .sobre {
-        grid-row-start: 4;
         grid-column-start: 1;
-        grid-column-end: 5;
-        font-size: 18pt;
-        padding-left: 5%;
-        padding-right: 5%;
+        grid-row-start: 1;
+        grid-column-end: 6;
+        font-size: 16pt;
+        padding: 0 5% 0 5%;
     }
 
     .contatos {
-        grid-row-start: 6;
+        grid-row-start: 3;
         grid-column-start: 1;
-        grid-column-end: 5;
-        padding-left: 5%;
-        padding-right: 5%;
+        grid-column-end: 2;
+        padding-left: 50px;
         padding-bottom: 30%;
-             
+        padding-top: 30%;
     }
 
     .logo-contatos {
         height: 50px;
-       
     }
-    .div-logo-contatos {
-    
-    padding-left: 30%;
-    }
+
     .formacao {
-        grid-row-start: 5;
         grid-column-start: 1;
-        grid-column-end: 5;
-        
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 18pt;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        padding: 0 5% 0 5%;
+        font-size: 16pt;
     }
 
 
@@ -419,69 +400,60 @@ body {
 
     .col1 {
         background-color: chartreuse;
-        grid-row-start: 1;
-        grid-column-start: 1;
+        float: left;
+        width: 100px;
+
     }
 
     .col2 {
         background-color: red;
-        grid-row-start: 1;
-        grid-column-start: 2;
-
-
+        float: left;
+        width: 100px;
     }
 
     .col3 {
         background-color: chocolate;
-        grid-column-start: 3;
-        grid-row-start: 1;
-
+        float: left;
+        width: 100px;
     }
 
     .col4 {
         background-color: purple;
-        grid-column-start: 4;
-        grid-row-start: 1;
-
+        float: left;
+        width: 100px;
     }
 
     .col5 {
         display: none;
-
     }
 
     .col6 {
         display: none;
-
     }
 
     .col7 {
         display: none;
-
     }
 
     .col8 {
         display: none;
-
     }
 
     .col9 {
         display: none;
-
     }
 
     .col10 {
         display: none;
-
     }
 
     .col11 {
         display: none;
-
     }
 
     .col12 {
         display: none;
     }
+
 
 }
