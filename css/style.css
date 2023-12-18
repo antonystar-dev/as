@@ -4,9 +4,18 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
+    font-family: 'Open Sans';
 
 }
+.teste-fim{
+    grid-row-start: 25;
+   
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: aqua;
+    height:300px;
 
+}
 .central {
     display: flex;
     background-color: coral;
@@ -35,16 +44,123 @@ body {
     color: white;
 }
 
+.titulo-sistema-az {
+    color: #060029;
+    font-size: 20pt;
+}
+
+.titulo-sistema-br {
+    color: white;
+    font-size: 20pt;
+}
+
+.subtitulo-sistema-az {
+    color: #060029;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.subtitulo-sistema-br {
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.alerta-situacao-emdev {
+    color: white;
+    background-color: rgb(211, 85, 12);
+    text-align: center;
+}
+
+.alerta-situacao-pronto {
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+/*BOTOES*/
+.bt-github {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-github:hover {
+    color: #ffffff;
+    background-color: #414141;
+}
+
+.bt-testar {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #248ab9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-testar:hover {
+    color: #ffffff;
+    background-color: #414141;
+}
+
+.bt-screen {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #b93818;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-screen:hover {
+    color: #ffffff;
+    background-color: #414141;
+}
+
+
 
 @media screen and (min-width: 769px) {
 
     /*PC*/
     .div-viewport {
-        background-color:  #060029;
+        background-color: #060029;
         display: grid;
-        grid-template-columns:repeat(12, 1fr);
+        grid-template-columns: repeat(12, 1fr);
         width: 1200px;
     }
+
+
 
     .home-dados {
         padding-top: 55%;
@@ -53,12 +169,12 @@ body {
         grid-row-start: 2;
         grid-column-start: 1;
         grid-column-end: 7;
-       
+
     }
 
     .div-imgeu {
 
-        
+
         padding-top: 40%;
         padding-bottom: 30%;
         grid-column-start: 7;
@@ -74,10 +190,11 @@ body {
         border-radius: 300px;
     }
 
+    /*SOBRE*/
     .sobre {
         grid-row-start: 3;
         grid-column-start: 3;
-        
+
         grid-column-end: 11;
         font-size: 18pt;
     }
@@ -87,22 +204,93 @@ body {
         grid-column-start: 2;
         grid-column-end: 4;
         background-color: red;
-       
+
     }
 
     .logo-contatos {
         height: 50px;
     }
 
+    .logo-tecnologia {
+        height: 30px;
+        padding: 2px;
+    }
+
+    .div-logo-tecnologia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
     .formacao {
         grid-row-start: 5;
         grid-column-start: 6;
         grid-column-end: 13;
-        
+
         padding-right: 40px;
         font-size: 18pt;
     }
 
+
+    /*SISTEMAS DESENVOLVIDOS*/
+    .div-viewport-projetos {
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 13;
+
+    }
+
+    .sistema1 {
+        grid-row-start: 7;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid #060029;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: #060029;
+    }
+
+    .sistema2 {
+        grid-row-start: 7;
+        grid-column-start: 5;
+        grid-column-end: 9;
+
+        background-color: #060029;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: white;
+    }
+
+    .sistema3 {
+        grid-row-start: 7;
+        grid-column-start: 9;
+        grid-column-end: 13;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid #060029;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: #060029;
+    }
+
+    .alerta-span {
+        background-color: red;
+        text-transform: uppercase;
+        font-size: 10pt;
+        grid-row-start: 8;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        margin-top: 20px;
+    }
 
 
 
@@ -193,16 +381,16 @@ body {
     }
 
     .div-viewport {
-        background-color:  #060029;
+        background-color: #060029;
         display: grid;
-        grid-template-columns:repeat(8, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         width: 800px;
     }
 
     .home-dados {
         padding-top: 10%;
         padding-bottom: 10%;
-       
+
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 9;
@@ -210,7 +398,7 @@ body {
 
     .div-imgeu {
 
-       
+
         padding-top: 10%;
         padding-bottom: 10%;
         grid-column-start: 1;
@@ -250,7 +438,7 @@ body {
         grid-row-start: 5;
         grid-column-start: 2;
         grid-column-end: 9;
-        
+
         padding-right: 40px;
         font-size: 18pt;
     }
@@ -338,16 +526,16 @@ body {
     }
 
     .div-viewport {
-        background-color:  #060029;
+        background-color: #060029;
         display: grid;
-        grid-template-columns:repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         width: 800px;
     }
 
     .home-dados {
         padding-top: 10%;
         padding-bottom: 10%;
-       
+
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 5;
@@ -355,7 +543,7 @@ body {
 
     .div-imgeu {
 
-       
+
         padding-top: 10%;
         padding-bottom: 10%;
         grid-column-start: 1;
@@ -387,22 +575,24 @@ body {
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 30%;
-             
+
     }
 
     .logo-contatos {
         height: 50px;
-       
+
     }
+
     .div-logo-contatos {
-    
-    padding-left: 30%;
+
+        padding-left: 30%;
     }
+
     .formacao {
         grid-row-start: 5;
         grid-column-start: 1;
         grid-column-end: 5;
-        
+
         padding-left: 5%;
         padding-right: 5%;
         font-size: 18pt;
