@@ -1,0 +1,161 @@
+body {
+
+    background-color: #060029;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Open Sans';
+
+}
+
+.footer {
+    grid-row-start: 25;
+
+    grid-column-start: 1;
+
+   
+    height: 300px;
+
+}
+
+.central {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.home-dados {
+    color: white;
+    text-align: center;
+}
+
+.titulo-identificador {
+    color: #F6752C;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.txt1 {
+    color: white;
+}
+
+.link-semFormatacao {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo-sistema-az {
+    color: #060029;
+    font-size: 20pt;
+}
+
+.titulo-sistema-br {
+    color: white;
+    font-size: 20pt;
+}
+
+.subtitulo-sistema-az {
+    color: #060029;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.subtitulo-sistema-br {
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.alerta-situacao-emdev {
+    color: white;
+    background-color: rgb(211, 85, 12);
+    text-align: center;
+}
+
+.alerta-situacao-pronto {
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.txt-br-center {
+    color: white;
+    text-align: center;
+}
+
+.txt-az-center {
+    color: #060029;
+    text-align: center;
+}
+
+/*BOTOES*/
+.bt-github {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-github:hover {
+    color: #ffffff;
+    background-color: #414141;
+}
+
+.bt-testar {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #248ab9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-testar:hover {
+    color: #ffffff;
+    background-color: #414141;
+}
+
+.bt-screen {
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    background-color: #b93818;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    margin: 2%;
+}
+
+.bt-screen:hover {
+    color: #ffffff;
+    background-color: #414141;
+}

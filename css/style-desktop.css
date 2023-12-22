@@ -1,0 +1,224 @@
+@media screen and (min-width: 769px) {
+
+    /*PC*/
+    .div-viewport {
+        background-color: #060029;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        width: 1200px;
+    }
+
+
+
+    .home-dados {
+        padding-top: 55%;
+        padding-left: 10px;
+        padding-bottom: 30%;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 7;
+
+    }
+
+    .div-imgeu {
+
+
+        padding-top: 40%;
+        padding-bottom: 30%;
+        grid-column-start: 7;
+        grid-row-start: 2;
+        grid-column-end: 13;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgeu {
+        width: 400px;
+        border-radius: 300px;
+    }
+
+    /*SOBRE*/
+    .sobre {
+        grid-row-start: 3;
+        grid-column-start: 3;
+
+        grid-column-end: 11;
+        font-size: 18pt;
+    }
+
+    .contatos {
+        grid-row-start: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: red;
+
+    }
+
+    .logo-contatos {
+        height: 50px;
+    }
+
+    .logo-tecnologia {
+        height: 30px;
+        padding: 2px;
+    }
+
+    .div-logo-tecnologia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .formacao {
+        grid-row-start: 5;
+        grid-column-start: 6;
+        grid-column-end: 13;
+
+        padding-right: 40px;
+        font-size: 18pt;
+    }
+
+
+    /*SISTEMAS DESENVOLVIDOS*/
+    .div-viewport-projetos {
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 13;
+
+    }
+
+    .sistema1 {
+        grid-row-start: 7;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid #060029;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: #060029;
+    }
+
+    .sistema2 {
+        grid-row-start: 7;
+        grid-column-start: 5;
+        grid-column-end: 9;
+
+        background-color: #060029;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: white;
+    }
+
+    .sistema3 {
+        grid-row-start: 7;
+        grid-column-start: 9;
+        grid-column-end: 13;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid #060029;
+        border-radius: 15px;
+        padding: 0 5% 5% 5%;
+        color: #060029;
+    }
+
+    .alerta-span {
+        background-color: red;
+        text-transform: uppercase;
+        font-size: 10pt;
+        grid-row-start: 8;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        margin-top: 20px;
+        color: white;
+    }
+
+    /*SISTEMAS PAGINA*/
+
+    .div-viewport-sistema {
+        grid-row-start: 11;
+        grid-column-start: 1;
+        grid-column-end: 13;
+
+    }
+
+    .subSistema1 {
+        grid-row-start: 12;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: #6c44ff;
+        padding: 0 0 10px 15px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    .subSistema2 {
+        grid-row-start: 12;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        background-color: #ff4343;
+        padding: 0 0 10px 15px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    .subSistema3 {
+        grid-row-start: 12;
+        grid-column-start: 7;
+        grid-column-end: 10;
+        background-color: #12b648;
+        padding: 0 0 10px 15px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    .subSistema4 {
+        grid-row-start: 12;
+        grid-column-start: 10;
+        grid-column-end: 13;
+        background-color: #414141;
+        padding: 0 0 10px 15px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    /*TECNOLOGIAS*/
+    .div-viewport-tecnologia {
+        grid-row-start: 13;
+        grid-column-start: 1;
+        grid-column-end: 13;
+
+    }
+
+    .tecnologias-div {
+        background-color: white;
+        grid-row-start: 14;
+        grid-column-start: 2;
+        grid-column-end: 12;
+
+        padding: 15px;
+        margin: 10px;
+        border-radius: 15px;
+
+
+    }
+
+    .logo-geral-tecnologia {
+        height: 100px;
+        padding: 2px;
+        margin: 10px;
+
+    }
+
+
+
+
+}
