@@ -1,17 +1,13 @@
-function Mudarestado(sistema1) {
+function ocultaMenu() {
 
-    var display = document.getElementById(sistema1).style.display;
-    if (display == "none")
-        document.getElementById(sistema1).style.display = 'block';
-    else
-        document.getElementById(sistema1).style.display = 'none';
+    if (document.getElementById("menuCelular").style.display == "none") {
+        document.getElementById("menuCelular").style.display = "block";
+    } else {
+        document.getElementById("menuCelular").style.display = "none";
+    }
 }
-
-function MudarestadoBACK(sistema1) {
-
-    var display = document.getElementById(sistema1).style.display;
-    if (display == "none")
-        document.getElementById(sistema1).style.display = 'block';
-    else
-        document.getElementById(sistema1).style.display = 'none';
+document.body.onresize = function () {
+    if ($(window).width() > 768) {
+        window.alert("vamos ver")
+    }
 }

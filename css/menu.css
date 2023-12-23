@@ -1,10 +1,93 @@
-.menu{
-    background-color: blueviolet;
-    display: flex;
-    padding:10px;
+.menu {
+    background-color: #060029;
     position: fixed;
     width: 100%;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
-.item-menu{
-    background-color: yellow;
+
+.menu-centro {
+
+    display: flex;
+    margin-left: 50%;
+}
+
+.menu-resp {
+    display: none;
+}
+
+/*.menu:hover {
+    background-color: black;
+}
+*/
+.item-menu {
+
+    padding-left: 10px;
+    padding: 20px 15px 0 15px;
+}
+
+.item-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.item-menu a:hover {
+    color: rgb(211, 85, 12);
+}
+
+.item-menu a:focus {
+    color: rgb(12, 211, 111);
+}
+
+.hr-menu:hover {
+    color: green;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-centro {
+
+        display: flex;
+        float: right;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        background-color: tomato;
+        border: 0;
+        margin: 0;
+    }
+
+    .menu-resp {
+        background-color: green;
+        display: flex;
+        float: right;
+        color: white;
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+
+
+    .menu-centro {
+        display: none;
+        background-color: chartreuse;
+        margin-top: 110px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 30%;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+
+
+
 }

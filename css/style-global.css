@@ -14,14 +14,13 @@ body {
 
     grid-column-start: 1;
 
-   
+
     height: 300px;
 
 }
 
 .central {
     display: flex;
-   
     align-items: center;
     justify-content: center;
 }
