@@ -7,6 +7,9 @@
     font-weight: bold;
     align-items: center;
     justify-content: center;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
 }
 
 .menu-centro {
@@ -38,9 +41,7 @@
     color: rgb(211, 85, 12);
 }
 
-.item-menu a:focus {
-    color: rgb(12, 211, 111);
-}
+
 
 .hr-menu:hover {
     color: green;
@@ -57,26 +58,29 @@
 
 @media screen and (max-width: 768px) {
     .menu {
-        background-color: tomato;
+        
         border: 0;
         margin: 0;
+        width: 100%;
+
     }
+ 
 
     .menu-resp {
-        background-color: green;
+       
         display: flex;
         float: right;
-        color: white;
+        
         padding: 15px;
-        margin-right: 10px;
+       padding-right: 35px;
+        
     }
-
-
+ 
 
     .menu-centro {
         display: none;
-        background-color: chartreuse;
-        margin-top: 110px;
+
+        margin-top: 50px;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -84,6 +88,7 @@
         margin-bottom: 50px;
         font-size: 30px;
         font-weight: bold;
+
     }
 
 

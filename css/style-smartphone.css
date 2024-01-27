@@ -1,9 +1,7 @@
 @media screen and (max-width: 480px) {
 
     /*SMARTPHONE*/
-    body {
-        background-color: yellow;
-    }
+    
 
     .div-viewport {
         background-color: #060029;

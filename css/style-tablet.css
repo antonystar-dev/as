@@ -1,9 +1,7 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /*TABLET*/
-    body {
-        background-color: green;
-    }
+    
 
     .div-viewport {
         background-color: #060029;

@@ -9,6 +9,9 @@
 </head>
 
 <body>
+<div class="central">
+
+<div class="div-viewport">
     <?php
         include_once 'pg/menu.html';
     ?>
