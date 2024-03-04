@@ -2,7 +2,7 @@
 
     /*PC*/
     .div-viewport {
-        background-color: #060029;
+        
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         width: 1200px;
@@ -45,12 +45,16 @@
 
         grid-column-end: 11;
         font-size: 18pt;
+        position: relative;
+      
     }
 
     .contatos {
         grid-row-start: 4;
         grid-column-start: 2;
         grid-column-end: 4;
+        z-index: 1;
+       
      
 
     }
@@ -86,7 +90,8 @@
         grid-row-start: 6;
         grid-column-start: 1;
         grid-column-end: 13;
-
+        position: relative;
+        z-index: 5;
     }
 
     .sistema1 {
@@ -101,6 +106,7 @@
         border-radius: 15px;
         padding: 0 5% 5% 5%;
         color: #060029;
+        z-index: 5;
     }
 
     .sistema2 {
@@ -115,6 +121,7 @@
         border-radius: 15px;
         padding: 0 5% 5% 5%;
         color: white;
+        z-index: 5;
     }
 
     .sistema3 {
@@ -128,6 +135,7 @@
         border-radius: 15px;
         padding: 0 5% 5% 5%;
         color: #060029;
+        z-index: 5;
     }
 
     .alerta-span {
@@ -139,6 +147,7 @@
         grid-column-end: 13;
         margin-top: 20px;
         color: white;
+        z-index: 5;
     }
 
     /*SISTEMAS PAGINA*/
@@ -147,6 +156,8 @@
         grid-row-start: 11;
         grid-column-start: 1;
         grid-column-end: 13;
+        position: relative;
+        z-index: 5;
 
     }
 
@@ -158,6 +169,7 @@
         padding: 0 0 10px 15px;
         margin: 10px;
         border-radius: 15px;
+        z-index: 5;
     }
 
     .subSistema2 {
@@ -168,6 +180,7 @@
         padding: 0 0 10px 15px;
         margin: 10px;
         border-radius: 15px;
+        z-index: 5;
     }
 
     .subSistema3 {
@@ -178,6 +191,7 @@
         padding: 0 0 10px 15px;
         margin: 10px;
         border-radius: 15px;
+        z-index: 5;
     }
 
     .subSistema4 {
@@ -188,6 +202,7 @@
         padding: 0 0 10px 15px;
         margin: 10px;
         border-radius: 15px;
+        z-index: 5;
     }
 
     /*TECNOLOGIAS*/
@@ -195,6 +210,8 @@
         grid-row-start: 13;
         grid-column-start: 1;
         grid-column-end: 13;
+        z-index: 5;
+        margin-top: 400px;
 
     }
 
@@ -207,7 +224,7 @@
         padding: 15px;
         margin: 10px;
         border-radius: 15px;
-
+        z-index: 5;
 
     }
 
@@ -215,10 +232,6 @@
         height: 100px;
         padding: 2px;
         margin: 10px;
-
+         z-index: 5;
     }
-
-
-
-
 }

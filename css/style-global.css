@@ -8,7 +8,45 @@ body {
     font-family: 'Open Sans';
 
 }
+.fundo-teste{
+    background-color: #587;
+    position: absolute;
+    height: 1100px;
+   width: 100%;
+   z-index: -1;
+   margin-top: 800px;
+   
+   
 
+
+}
+.fundo-projetos{
+    background-color: #ffffff;
+    position: absolute;
+    height: 800px;
+   width: 100%;
+   z-index: 3;
+   margin-top: 2280px;
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   
+
+
+}
+.fundo-sistemas{
+    background-color: #584;
+    position: absolute;
+    height: 700px;
+   width: 100%;
+   margin-top: 3000px;
+   z-index: 1;
+   
+   background: url("https://previews.123rf.com/images/vantuz/vantuz1502/vantuz150200257/36783155-fundo-de-ferramentas-de-constru%C3%A7%C3%A3o-e-medi%C3%A7%C3%A3o.jpg") no-repeat fixed;
+   background-size: 100%;
+   
+   
+
+}
 .footer {
     grid-row-start: 25;
 

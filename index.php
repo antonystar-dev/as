@@ -9,18 +9,23 @@
 </head>
 
 <body>
+<div class="fundo-teste"></div>
+<div class="fundo-projetos"></div>
+<div class="fundo-sistemas"></div>
 <div class="central">
 
 <div class="div-viewport">
     <?php
         include_once 'pg/menu.html';
     ?>
+   
       <?php
         include_once 'pg/home.html';
     ?>
       <?php
         include_once 'pg/sobre.html';
     ?>
+    
       <?php
         include_once 'pg/projetos.html';
     ?>
