@@ -3,12 +3,16 @@
 
 <head>
 <?php
-        include_once 'pg/header.html';
+    include_once '../analistar/analistar.php';
+    include_once 'pg/header.html';
     ?>
     
 </head>
 
 <body>
+<div class="alertaInicial">
+Olá, visitante! Seja bem-vindo ao meu portfólio. Por favor, esteja ciente de que ainda estou trabalhando no aprimoramento da navegação e pode haver alguns bugs. Em breve, estarei lançando a versão completa do meu portfólio. Agradeço pela sua compreensão!
+</div>
 <div class="fundo-teste"></div>
 <div class="fundo-projetos"></div>
 <div class="fundo-sistemas"></div>
